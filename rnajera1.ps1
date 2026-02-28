@@ -70,7 +70,8 @@ function kerrclean {
 <#
 This function extracts a specific row/record off of a .csv file (obtained from SMAX),
 in this case "RequestedForPerson.Name" which corresponds to the store, sorts them, removes
-any duplicate entries, and outputs a .txt file with the result#>
+any duplicate entries, and outputs a .txt file with the result
+#>
 
 
 function lstpls {
@@ -100,6 +101,7 @@ function lstpls {
     Write-Host "File has been sorted and saved (C:\Users\rnajera1\Downloads\storesoutput.txt)"
 
 }
+
 
 
 
